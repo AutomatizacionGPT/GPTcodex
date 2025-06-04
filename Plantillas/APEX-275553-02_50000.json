@@ -1,0 +1,35 @@
+{
+    "empresa": "APEX-275553-02",
+    "size": 50000,
+    "types": [
+        "Full"
+    ],
+    "reglas": {
+        "objetivo_ganancia_pct": 6.0,
+        "objetivo_usd": 3000.0,
+        "drawdown_maximo_pct": 5.0,
+        "drawdown_usd": 2500.0,
+        "tipo_drawdown": "fin_dia",
+        "umbral_pago": 1600.0,
+        "pago_maximo": 1000.0,
+        "perdida_diaria_maxima": 1.0,
+        "perdida_semanal_maxima": 3.0,
+        "perdidas_consecutivas_maxima": 3,
+        "ganancia_diaria_maxima": 2.0,
+        "dias_minimos_operados": 5,
+        "dias_prueba": 60,
+        "regla_consistencia": true,
+        "porcentaje_consistencia": 30.0,
+        "contratos_maximos": 3,
+        "operar_en_noticias": true,
+        "horario_operacion": {
+            "inicio": "08:30",
+            "fin": "15:55"
+        },
+        "uso_stop_loss_obligatorio": true,
+        "ratio_tp_pips": 45.0,
+        "ratio_sl_pips": 15.0,
+        "regla_5_por_ciento": true,
+        "regla_safety_net": true
+    }
+}

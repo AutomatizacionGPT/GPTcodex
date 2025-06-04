@@ -1,0 +1,14 @@
+JotaCapitalTracker/
+│
+├── jota_capital_tracker.py       # Archivo principal con GUI
+├── config_manager.py              # Gestión de empresas y plantillas
+├── template_editor.py             # Constructor de plantillas (GUI)
+├── utils/
+│   ├── data_utils.py              # Limpieza y validación de datos
+│   ├── plot_utils.py              # Gráficos reutilizables
+│   └── report_utils.py            # Generación de PDFs
+├── models/
+│   └── trade_model.py             # Cálculo de métricas avanzadas
+├── Plantillas/                    # Carpeta vacía para JSONs de plantillas
+├── empresas.json                  # Lista de empresas predefinidas
+└── requirements.txt               # Dependencias necesarias

@@ -1,0 +1,53 @@
+{
+    "size": 0,
+    "reglas": {
+        "RATIO_SL_PIPS": {
+            "nombre": "\ud83d\udee1\ufe0f Stop Loss (pips)",
+            "valor": 10
+        },
+        "RATIO_TP_PIPS": {
+            "nombre": "\ud83c\udfaf Take Profit (pips)",
+            "valor": 15
+        },
+        "HORARIO_INICIO": {
+            "nombre": "\ud83d\udd52 Horario de Inicio",
+            "valor": "08:00"
+        },
+        "HORARIO_FIN": {
+            "nombre": "\ud83d\udd54 Horario de Cierre",
+            "valor": "16:00"
+        },
+        "STOP_LOSS_OBLIGATORIO": {
+            "nombre": "\ud83d\uded1 Stop Loss Obligatorio",
+            "valor": false
+        },
+        "PERDIDA_DIARIA_MAX": {
+            "nombre": "\ud83d\udca5 P\u00e9rdida Diaria M\u00e1xima (%)",
+            "valor": 5
+        },
+        "PERDIDA_SEMANAL_MAX": {
+            "nombre": "\ud83d\udd3b P\u00e9rdida Semanal M\u00e1xima (%)",
+            "valor": 10
+        },
+        "PERDIDAS_CONSECUTIVAS_MAX": {
+            "nombre": "\ud83d\udcc9 P\u00e9rdidas Consecutivas M\u00e1x.",
+            "valor": 7
+        },
+        "DIAS_OPERANDO_MIN": {
+            "nombre": "\ud83d\udcc6 M\u00ednimo de D\u00edas Operando",
+            "valor": 5
+        },
+        "GANANCIA_DIARIA_MAX_PORC": {
+            "nombre": "\ud83d\udcc8 Ganancia Diaria M\u00e1x. (%)",
+            "valor": 70
+        },
+        "MULTIPLICADOR_CONTRATOS_MAX": {
+            "nombre": "\ud83d\udcca Multiplicador de Contratos",
+            "valor": 3
+        },
+        "CONSISTENCIA": {
+            "nombre": "\ud83d\udccc Porcentaje de Consistencia (%)",
+            "valor": 50
+        }
+    }
+}

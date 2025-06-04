@@ -1,0 +1,390 @@
+{
+    "plantillas_cuentas": {
+        "Apex Trader Funding_50000": {
+            "TAMA\u00d1O_CUENTA": 50000,
+            "OBJETIVO_GANANCIA": 0,
+            "OBJETIVO_PORC": 0,
+            "DRAWDOWN_MAX": 0,
+            "DRAWDOWN_MAX_PORC": 0,
+            "UMBRAL_PAGO": 0,
+            "PAGO_MAXIMO": 0,
+            "DIAS_PRUEBA": 5,
+            "REGLAS": {
+                "PERDIDA_DIARIA_MAX": {
+                    "nombre": "P\u00e9rdida Diaria M\u00e1xima (%)",
+                    "valor": 0.5
+                },
+                "PERDIDA_SEMANAL_MAX": {
+                    "nombre": "P\u00e9rdida Semanal M\u00e1xima (%)",
+                    "valor": 10
+                },
+                "PERDIDAS_CONSECUTIVAS_MAX": {
+                    "nombre": "M\u00e1x. D\u00edas Perdidos Consecutivos",
+                    "valor": 7
+                },
+                "DIAS_OPERANDO_MIN": {
+                    "nombre": "M\u00ednimo de D\u00edas Operando",
+                    "valor": 5
+                },
+                "GANANCIA_DIARIA_MAX_PORC": {
+                    "nombre": "Ganancia Diaria M\u00e1xima (%)",
+                    "valor": 70
+                },
+                "MULTIPLICADOR_CONTRATOS_MAX": {
+                    "nombre": "Multiplicador de Contratos M\u00e1ximo",
+                    "valor": 3
+                },
+                "CONSISTENCIA": {
+                    "nombre": "Porcentaje de Consistencia (%)",
+                    "valor": 70.0
+                },
+                "OPERAR_EN_NOTICIAS": {
+                    "nombre": "Operar en Noticias",
+                    "valor": false
+                },
+                "HORARIO_INICIO": {
+                    "nombre": "Horario Inicio",
+                    "valor": "17:00"
+                },
+                "HORARIO_FIN": {
+                    "nombre": "Horario Fin",
+                    "valor": "15:00"
+                },
+                "STOP_LOSS_OBLIGATORIO": {
+                    "nombre": "Stop Loss Obligatorio",
+                    "valor": true
+                },
+                "RATIO_TP_PIPS": {
+                    "nombre": "Take Profit (pips)",
+                    "valor": 15
+                },
+                "RATIO_SL_PIPS": {
+                    "nombre": "Stop Loss (pips)",
+                    "valor": 10
+                }
+            }
+        },
+        "Cuenta de Parametrizacion de datos_50000": {
+            "TAMA\u00d1O_CUENTA": 50000,
+            "OBJETIVO_GANANCIA": 3000.0,
+            "OBJETIVO_PORC": 6.0,
+            "DRAWDOWN_MAX": 2500.0,
+            "DRAWDOWN_MAX_PORC": 5.0,
+            "UMBRAL_PAGO": 1600.0,
+            "PAGO_MAXIMO": 1000.0,
+            "DIAS_PRUEBA": 30,
+            "REGLAS": {
+                "PERDIDA_DIARIA_MAX": {
+                    "nombre": "P\u00e9rdida Diaria M\u00e1xima (%)",
+                    "valor": 0.5
+                },
+                "PERDIDA_SEMANAL_MAX": {
+                    "nombre": "P\u00e9rdida Semanal M\u00e1xima (%)",
+                    "valor": 10
+                },
+                "PERDIDAS_CONSECUTIVAS_MAX": {
+                    "nombre": "M\u00e1x. D\u00edas Perdidos Consecutivos",
+                    "valor": 7
+                },
+                "DIAS_OPERANDO_MIN": {
+                    "nombre": "M\u00ednimo de D\u00edas Operando",
+                    "valor": 5
+                },
+                "GANANCIA_DIARIA_MAX_PORC": {
+                    "nombre": "Ganancia Diaria M\u00e1xima (%)",
+                    "valor": 70
+                },
+                "MULTIPLICADOR_CONTRATOS_MAX": {
+                    "nombre": "Multiplicador de Contratos M\u00e1ximo",
+                    "valor": 3
+                },
+                "CONSISTENCIA": {
+                    "nombre": "Porcentaje de Consistencia (%)",
+                    "valor": 70.0
+                },
+                "OPERAR_EN_NOTICIAS": {
+                    "nombre": "Operar en Noticias",
+                    "valor": true
+                },
+                "HORARIO_INICIO": {
+                    "nombre": "Horario Inicio",
+                    "valor": "08:30"
+                },
+                "HORARIO_FIN": {
+                    "nombre": "Horario Fin",
+                    "valor": "15:00"
+                },
+                "STOP_LOSS_OBLIGATORIO": {
+                    "nombre": "Stop Loss Obligatorio",
+                    "valor": true
+                },
+                "RATIO_TP_PIPS": {
+                    "nombre": "Take Profit (pips)",
+                    "valor": 45.0
+                },
+                "RATIO_SL_PIPS": {
+                    "nombre": "Stop Loss (pips)",
+                    "valor": 15.0
+                }
+            }
+        },
+        "FundedNext Futures_50000": {
+            "TAMA\u00d1O_CUENTA": 50000,
+            "OBJETIVO_GANANCIA": 0,
+            "OBJETIVO_PORC": 0,
+            "DRAWDOWN_MAX": 0,
+            "DRAWDOWN_MAX_PORC": 0,
+            "UMBRAL_PAGO": 0,
+            "PAGO_MAXIMO": 0,
+            "DIAS_PRUEBA": 7,
+            "REGLAS": {
+                "PERDIDA_DIARIA_MAX": {
+                    "nombre": "P\u00e9rdida Diaria M\u00e1xima (%)",
+                    "valor": 0.5
+                },
+                "PERDIDA_SEMANAL_MAX": {
+                    "nombre": "P\u00e9rdida Semanal M\u00e1xima (%)",
+                    "valor": 10
+                },
+                "PERDIDAS_CONSECUTIVAS_MAX": {
+                    "nombre": "M\u00e1x. D\u00edas Perdidos Consecutivos",
+                    "valor": 7
+                },
+                "DIAS_OPERANDO_MIN": {
+                    "nombre": "M\u00ednimo de D\u00edas Operando",
+                    "valor": 7
+                },
+                "GANANCIA_DIARIA_MAX_PORC": {
+                    "nombre": "Ganancia Diaria M\u00e1xima (%)",
+                    "valor": 70
+                },
+                "MULTIPLICADOR_CONTRATOS_MAX": {
+                    "nombre": "Multiplicador de Contratos M\u00e1ximo",
+                    "valor": 3
+                },
+                "CONSISTENCIA": {
+                    "nombre": "Porcentaje de Consistencia (%)",
+                    "valor": 70.0
+                },
+                "OPERAR_EN_NOTICIAS": {
+                    "nombre": "Operar en Noticias",
+                    "valor": false
+                },
+                "HORARIO_INICIO": {
+                    "nombre": "Horario Inicio",
+                    "valor": "08:30"
+                },
+                "HORARIO_FIN": {
+                    "nombre": "Horario Fin",
+                    "valor": "15:45"
+                },
+                "STOP_LOSS_OBLIGATORIO": {
+                    "nombre": "Stop Loss Obligatorio",
+                    "valor": true
+                },
+                "RATIO_TP_PIPS": {
+                    "nombre": "Take Profit (pips)",
+                    "valor": 45.0
+                },
+                "RATIO_SL_PIPS": {
+                    "nombre": "Stop Loss (pips)",
+                    "valor": 15.0
+                }
+            }
+        },
+        "La cuenta de (Jota)_50000": {
+            "TAMA\u00d1O_CUENTA": 50000,
+            "OBJETIVO_GANANCIA": 0,
+            "OBJETIVO_PORC": 0,
+            "DRAWDOWN_MAX": 0,
+            "DRAWDOWN_MAX_PORC": 0,
+            "UMBRAL_PAGO": 0,
+            "PAGO_MAXIMO": 0,
+            "DIAS_PRUEBA": 7,
+            "REGLAS": {
+                "PERDIDA_DIARIA_MAX": {
+                    "nombre": "P\u00e9rdida Diaria M\u00e1xima (%)",
+                    "valor": 0.5
+                },
+                "PERDIDA_SEMANAL_MAX": {
+                    "nombre": "P\u00e9rdida Semanal M\u00e1xima (%)",
+                    "valor": 10
+                },
+                "PERDIDAS_CONSECUTIVAS_MAX": {
+                    "nombre": "M\u00e1x. D\u00edas Perdidos Consecutivos",
+                    "valor": 7
+                },
+                "DIAS_OPERANDO_MIN": {
+                    "nombre": "M\u00ednimo de D\u00edas Operando",
+                    "valor": 7
+                },
+                "GANANCIA_DIARIA_MAX_PORC": {
+                    "nombre": "Ganancia Diaria M\u00e1xima (%)",
+                    "valor": 70
+                },
+                "MULTIPLICADOR_CONTRATOS_MAX": {
+                    "nombre": "Multiplicador de Contratos M\u00e1ximo",
+                    "valor": 3
+                },
+                "CONSISTENCIA": {
+                    "nombre": "Porcentaje de Consistencia (%)",
+                    "valor": 70.0
+                },
+                "OPERAR_EN_NOTICIAS": {
+                    "nombre": "Operar en Noticias",
+                    "valor": false
+                },
+                "HORARIO_INICIO": {
+                    "nombre": "Horario Inicio",
+                    "valor": "08:30"
+                },
+                "HORARIO_FIN": {
+                    "nombre": "Horario Fin",
+                    "valor": "15:00"
+                },
+                "STOP_LOSS_OBLIGATORIO": {
+                    "nombre": "Stop Loss Obligatorio",
+                    "valor": true
+                },
+                "RATIO_TP_PIPS": {
+                    "nombre": "Take Profit (pips)",
+                    "valor": 15
+                },
+                "RATIO_SL_PIPS": {
+                    "nombre": "Stop Loss (pips)",
+                    "valor": 10
+                }
+            }
+        },
+        "Otra cuenta de (Jota)_50000": {
+            "TAMA\u00d1O_CUENTA": 50000,
+            "OBJETIVO_GANANCIA": 0,
+            "OBJETIVO_PORC": 0,
+            "DRAWDOWN_MAX": 0,
+            "DRAWDOWN_MAX_PORC": 0,
+            "UMBRAL_PAGO": 0,
+            "PAGO_MAXIMO": 0,
+            "DIAS_PRUEBA": 7,
+            "REGLAS": {
+                "PERDIDA_DIARIA_MAX": {
+                    "nombre": "P\u00e9rdida Diaria M\u00e1xima (%)",
+                    "valor": 0.5
+                },
+                "PERDIDA_SEMANAL_MAX": {
+                    "nombre": "P\u00e9rdida Semanal M\u00e1xima (%)",
+                    "valor": 10
+                },
+                "PERDIDAS_CONSECUTIVAS_MAX": {
+                    "nombre": "M\u00e1x. D\u00edas Perdidos Consecutivos",
+                    "valor": 7
+                },
+                "DIAS_OPERANDO_MIN": {
+                    "nombre": "M\u00ednimo de D\u00edas Operando",
+                    "valor": 7
+                },
+                "GANANCIA_DIARIA_MAX_PORC": {
+                    "nombre": "Ganancia Diaria M\u00e1xima (%)",
+                    "valor": 70
+                },
+                "MULTIPLICADOR_CONTRATOS_MAX": {
+                    "nombre": "Multiplicador de Contratos M\u00e1ximo",
+                    "valor": 3
+                },
+                "CONSISTENCIA": {
+                    "nombre": "Porcentaje de Consistencia (%)",
+                    "valor": 69.0
+                },
+                "OPERAR_EN_NOTICIAS": {
+                    "nombre": "Operar en Noticias",
+                    "valor": false
+                },
+                "HORARIO_INICIO": {
+                    "nombre": "Horario Inicio",
+                    "valor": "08:30"
+                },
+                "HORARIO_FIN": {
+                    "nombre": "Horario Fin",
+                    "valor": "15:45"
+                },
+                "STOP_LOSS_OBLIGATORIO": {
+                    "nombre": "Stop Loss Obligatorio",
+                    "valor": true
+                },
+                "RATIO_TP_PIPS": {
+                    "nombre": "Take Profit (pips)",
+                    "valor": 45.0
+                },
+                "RATIO_SL_PIPS": {
+                    "nombre": "Stop Loss (pips)",
+                    "valor": 15.0
+                }
+            }
+        },
+        "Topstep_50000": {
+            "TAMA\u00d1O_CUENTA": 50000,
+            "OBJETIVO_GANANCIA": 3000.0,
+            "OBJETIVO_PORC": 6.0,
+            "DRAWDOWN_MAX": 2500.0,
+            "DRAWDOWN_MAX_PORC": 5.0,
+            "UMBRAL_PAGO": 0,
+            "PAGO_MAXIMO": 0,
+            "DIAS_PRUEBA": 30,
+            "REGLAS": {
+                "PERDIDA_DIARIA_MAX": {
+                    "nombre": "P\u00e9rdida Diaria M\u00e1xima (%)",
+                    "valor": 0.5
+                },
+                "PERDIDA_SEMANAL_MAX": {
+                    "nombre": "P\u00e9rdida Semanal M\u00e1xima (%)",
+                    "valor": 10
+                },
+                "PERDIDAS_CONSECUTIVAS_MAX": {
+                    "nombre": "M\u00e1x. D\u00edas Perdidos Consecutivos",
+                    "valor": 7
+                },
+                "DIAS_OPERANDO_MIN": {
+                    "nombre": "M\u00ednimo de D\u00edas Operando",
+                    "valor": 7
+                },
+                "GANANCIA_DIARIA_MAX_PORC": {
+                    "nombre": "Ganancia Diaria M\u00e1xima (%)",
+                    "valor": 70
+                },
+                "MULTIPLICADOR_CONTRATOS_MAX": {
+                    "nombre": "Multiplicador de Contratos M\u00e1ximo",
+                    "valor": 3
+                },
+                "CONSISTENCIA": {
+                    "nombre": "Porcentaje de Consistencia (%)",
+                    "valor": 70.0
+                },
+                "OPERAR_EN_NOTICIAS": {
+                    "nombre": "Operar en Noticias",
+                    "valor": true
+                },
+                "HORARIO_INICIO": {
+                    "nombre": "Horario Inicio",
+                    "valor": "08:00"
+                },
+                "HORARIO_FIN": {
+                    "nombre": "Horario Fin",
+                    "valor": "15:00"
+                },
+                "STOP_LOSS_OBLIGATORIO": {
+                    "nombre": "Stop Loss Obligatorio",
+                    "valor": true
+                },
+                "RATIO_TP_PIPS": {
+                    "nombre": "Take Profit (pips)",
+                    "valor": 45.0
+                },
+                "RATIO_SL_PIPS": {
+                    "nombre": "Stop Loss (pips)",
+                    "valor": 15.0
+                }
+            }
+        }
+    },
+    "ultima_seleccion": "Cuenta de Parametrizacion de datos_50000",
+    "nombre_empresa": "Jota Capital Tracker"
+}
